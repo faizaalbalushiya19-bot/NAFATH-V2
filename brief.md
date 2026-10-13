@@ -15,11 +15,17 @@ Resource: Datasets: Dividing the original dataset - https://developers.google.co
 An offline-first mobile application can perform its main tasks without a reliable internet connection. It stores important information locally so users can still access it when connectivity is lost. When the connection returns, the application can update data between local and remote sources. Developers must consider failed requests, data conflicts, and synchronization rules. These decisions are important for emergency responders who may need critical information in areas with weak network coverage.
 Resource: Build an offline-first app - https://developer.android.com/topic/architecture/data-layer/offline-first
 ## Networking
+5G network slicing allows a mobile operator to create separate logical networks on shared network infrastructure. Each slice can be designed for the needs of a particular service or group of users. For example, emergency responders may need reliable communication, while other services may focus on high data speeds. Network slicing helps operators manage different requirements, but its effectiveness depends on correct configuration, resource management, and security.
 
+Resource: 3GPP - 5G System Architecture and Network Slicing - https://www.3gpp.org/ftp/inbox/marcoms/ICT_6_1-2.pdf
 ## Cybersecurity
+Incident response is the process an organisation follows when a cybersecurity incident occurs. Teams prepare before incidents happen, monitor systems to detect suspicious activity, and analyse evidence to understand the problem. They then contain the incident to limit its impact, remove the threat, and recover affected systems. Afterward, they review what happened and identify improvements. Clear responsibilities and communication help teams respond effectively and reduce disruption.
 
+Resource: NIST - Incident Response - https://csrc.nist.gov/projects/incident-response
 ## Data
+A star schema organises analytical data around a central fact table connected directly to dimension tables. A snowflake schema extends this design by splitting some dimension tables into related, more normalised tables. Star schemas are often easier to understand and may require fewer joins in queries. Snowflake schemas can reduce duplicated descriptive data but may need more joins. The appropriate design depends on reporting needs, data structure, and performance requirements.
 
+Resource: Snowflake - What Is a Star Schema? A Complete Guide to Data Modeling - https://www.snowflake.com/en/fundamentals/star-schema/
 ## Misconception in My Track
 
 ## Open Question
